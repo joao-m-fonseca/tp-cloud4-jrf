@@ -1,0 +1,22 @@
+###### Comandos Git para Git e GitHub #######
+
+###### Comando git clone #####
+
+O comando git clone permite criar uma pasta no host, ou seja, localmente, que funciona como um clone ou uma imagem original de um repositório
+público alocado no GitHub. Desta forma podemos fazer alterações nos ficheiros contidos na pasta clonada localmente, utilizando o
+IDE ou o editor de texto preferido e em seguida enviar estas alterações para servidores remotos do GitHub.
+
+##### Comando git pull #####
+
+O comando git pull permite fazer o download de um determinado repositório alojado no GitHub. Desta forma podemos facilmente aceder apenas através da
+CLI aos ficheiros contidos num repositório remoto, desde que este seja público ou tenhamos acesso no caso de ser privado. Importa referir que estes ficheiros
+ficarão alojados localmente e a edição e acesso é local. Se estivermos a trabalhar num projeto em que o repositório	é atualizado com regularidade,
+torna-se importante realizar este comando pelo menos uma vez ao dia.
+
+##### Comando git push #####
+
+O comando git push permite enviar, isto é, fazer o upload de ficheiros alocados localmente na nossa máquina para um repositório remoto, por exemplo
+um repositório do GitHub. Assim, após efetuarmos as alterações aos ficheiros que descarregámos com o git push, podemos enviá-los de novo para
+o repositório, mantendo assim ambas as pastas atualizadas e com alguma sincronização.
+
+Nota: Todos estes comandos acabam por ter funcionalidades extremamente semelhantes aos comandos docker pull e docker push.
